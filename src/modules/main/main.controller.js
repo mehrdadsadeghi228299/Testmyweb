@@ -50,7 +50,7 @@ class MainPageController {
     async contactMainPage(req, res, next) {
         try {
              res.render('html/contact',{
-                title:"Contact"
+                title:"Contact | Darya"
              });
         } catch (error) {
             next(error);
