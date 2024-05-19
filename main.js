@@ -20,7 +20,7 @@ const ip=process.env.IP;
 const cookiesecretekey=process.env.cookiesecretekey;
 async function main(){
     const app = express();
-    require('./config/db/db.config');
+   // require('./config/db/db.config');
     SwaggerConfig(app);
     app.use(express.json());
     app.use(cookieParser(cookiesecretekey));
