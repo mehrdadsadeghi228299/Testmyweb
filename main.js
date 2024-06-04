@@ -35,7 +35,7 @@ async function main(){
     NotFoundHandler(app);
     AllExceptionHandler(app);
     app.listen(port,ip,()=>{
-        console.log(`server is running on: ${ip}:${port}`);
+        console.log(`server is running on: http://${ip}:${port}`);
     });
 }
 
